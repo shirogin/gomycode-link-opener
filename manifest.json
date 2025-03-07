@@ -1,0 +1,42 @@
+{
+    "manifest_version": 3,
+    "name": "GoMyCode Link Opener",
+    "version": "1.0",
+    "description": "Replaces copy URL action with opening in a new tab.",
+    "permissions": [
+        "scripting",
+        "clipboardRead",
+        "clipboardWrite"
+    ],
+    "host_permissions": [
+        "https://instructors.learn.gomycode.co/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://instructors.learn.gomycode.co/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_start"
+        }
+    ],
+    "icons": {
+        "16": "icon16.png",
+        "32": "icon32.png",
+        "48": "icon48.png",
+        "64": "icon64.png",
+        "128": "icon128.png"
+    },
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "overrideClipboard.js"
+            ],
+            "matches": [
+                "<all_urls>"
+            ]
+        }
+    ]
+}
