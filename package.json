@@ -1,0 +1,23 @@
+{
+  "name": "gomycode-link-opener",
+  "version": "1.0.0",
+  "description": "Replaces copy URL action with opening in a new tab.",
+  "keywords": [
+    "go-my-code",
+    "link-opener",
+    "extension",
+    "chromium"
+  ],
+  "homepage": "https://github.com/shirogin/gomycode-link-opener#readme",
+  "bugs": {
+    "url": "https://github.com/shirogin/gomycode-link-opener/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shirogin/gomycode-link-opener.git"
+  },
+  "license": "ISC",
+  "author": "jesuph",
+  "type": "commonjs",
+  "main": "content.js"
+}
