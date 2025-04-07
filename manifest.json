@@ -35,7 +35,7 @@
                 "overrideClipboard.js"
             ],
             "matches": [
-                "<all_urls>"
+                "https://instructors.learn.gomycode.co/*"
             ]
         }
     ],
